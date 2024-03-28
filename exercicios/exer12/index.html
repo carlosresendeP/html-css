@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    <h1>incerindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu proprio servidor.</p>
+    <!--
+        COLOQUE CONTROLS PARA A O CONTROLE DO VÍDEO 
+        use WIDTH PARA REDIMENCIONAR O VÍDEO
+        POSTER PARA CAPA
+        A ORDEM A BAIXO SEGUE PARA SE O NAVEGADOR NÃO FOR COMPATIVEL COM O VIDEO, ELE TENTARÁ USAR O SEGUNTE.
+    -->
+    
+    <video controls width="560" height="315" poster="#" autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video-webm.webm" type="video/webm">
+        <source src="midia/meu-video-ogv.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <h1>Incerindo vídeo no Youtube</h1>
+    <!-- 
+        O SITE CONSUMIRÁ O DADOS DO YOUTUBE NÃO DO SEU SITE. VA NO YOUTUBE, PEQUE UM VIDEO, COMPARTILHAR INCORPORAR DEPOIS É SO COLAR O CODIGO NO HTML
+    -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=NoQ-IeeofVkUzqoN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

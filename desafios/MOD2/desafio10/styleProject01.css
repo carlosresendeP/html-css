@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'android';
+    src: url('fontes/idroid.otf')format(opentype);
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+
+
+body{
+    background-color: #67E6B4;
+    
+}
+/*conf de todo cabeçaho*/
+#cabeçalho{
+    background-image: linear-gradient(to bottom, #44ca68,#1c7433, #196d30);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px 0px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.555);    
+    
+}
+header > p{
+    font-size: small;
+}
+/*conf barra de navegação*/
+.navegação{
+    background-color: #196d30;
+    padding: 10px;
+    text-align: justify;
+    
+}
+/*conf 'a'*/
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+nav > a:hover{
+    background-color: #44ca68;
+}
+/*conteudo*/
+main{
+    font-family: 'android', Times, serif;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin: 0px 100px;
+    border: 0px;
+    color: #145024;
+}
+main >p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+picture{
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+div > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.titulos{
+    background-image: linear-gradient(to right, #44ca687e,#44ca682f, #44ca6818);
+}
+/*box final*/
+.caixafinal{
+    background-color: #c5f8e3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: justify;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px ;
+    
+}
+.caixafinal > h3{
+    background-color: #539665;
+    color: white;
+    font-size: small;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.caixafinal > p{
+    padding: 5px
+}
+footer{
+    background-color: #196d30;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

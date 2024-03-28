@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{/*BOX-LEVEL*/
+            /*PARA TRANSFOTMA-LO EM INLINE coloqye display inline*/ 
+            display: block;
+
+
+
+           background-color: lightgray;
+           height: 300px;
+           width: 300px ;
+           /*border-width: 10px;
+           border-style: solid;
+           border-color: darkgray;*/
+
+           border: 10px solid darkgray; /* MODELO SIMPLIFICADO DA BORDA*/
+
+           /*padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px ;
+           padding-left: 10px;*/
+
+           padding: 10px 20px; /* SEGUE A ORDERM :CIMA, DIREITA, BAIXO, ESQUERDA*/
+           /*SE TODAS FOREM IGUAIS BASTA COLOCAR SOMENTE UM VALOR EX 10PX.*/
+           /*QUANDO SE BOTA DOIS VALORES O DE CIMA=BAIXO DIR=ESQ*/
+
+           /*margin-top: 20px;
+           margin-right: 20px;
+           margin-bottom: 40px;
+           margin-left: 20px;*/
+
+           margin: 20px auto 40px auto; /*para centralizar é so colocar auto*/
+
+           /*outline-width: 5px;
+           outline-style: double;
+           outline-color: salmon;*/
+
+           outline: 5px double salmon;
+
+        }
+        a{/*inline*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px ;
+           padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixa inline-level</a> vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

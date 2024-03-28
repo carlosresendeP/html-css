@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em Css</title>
+    <style>
+       
+        body{
+             /*no lugar de botton, pode der o angulo(45deg) use retangle, circle */
+            background-image: linear-gradient(to top, #111827,#70706f, #211d3b, #1904A3)
+            /*direção, cor 1, cor 2 */;
+            ;/*fundo fixel*/
+        }
+        .Nav1{
+            background-color: #70706f;
+            font-family: monospace;
+            height: 60px;
+            display:flex;
+            justify-content: center;
+            color: white;
+        }
+        .Nav2{
+            background-color: #70706f;
+            font-family: monospace;
+            width: 60px;
+            height: 1000px;
+            display:flex;
+            justify-content: left;
+            color: white;
+        }
+        header{
+            font-family: monospace;
+            height: 60px;
+            display:flex;
+            justify-content: center;
+            background-color: #1a3e53;
+            color: white;
+            
+        }
+        footer{
+            font-family: monospace;
+            height: 100px;
+            
+            display:flex;
+            justify-content:end;
+            background-color: #1a3e53;
+            color: white;
+        }
+        aside{
+            background-color: #70706f;
+            font-family: monospace;
+            height:60px;
+            width: 70px;
+            
+            display:flex;
+            justify-content: right;
+            color: white;
+            
+            object-position: 60px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Testando Gradiente</h1>
+    </header>
+    <nav class="Nav1">
+        <ul>
+            <li>Olá mundo, item 1, item 2</li>
+        </ul>
+    </nav>
+    <main>
+
+    </main>
+    <nav class="Nav2">
+        <ul>
+            <li>Item 3</li>
+        </ul>
+        
+    </nav>
+    <aside>
+        <ul>
+            <li>Item 4</li>
+        </ul>
+    </aside>
+    <footer>
+
+    </footer>
+
+    
+</body>
+</html>

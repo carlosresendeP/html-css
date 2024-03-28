@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <!--Fonte modo espaçada tag code-->
+    <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem javaScript.</p>
+    <!-- tag pre para arrumar linhas-->
+    <!-- tecla TAB add linhas (shift + TAB), diminui linhas até o canto-->
+    <pre>
+        <code>
+    num = int(input('Digte um número'))
+    if num % 2 == 0:
+        print(f'O numero {num}é par)
+    else:
+        print(f'o numero {num} é impar)
+    print('fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <!-- tag  q  citaçõo um coloca "" no texto-->
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q> </p>
+    <h2>Citações Completas</h2>
+    <p>Segunto Jeff Noble, no seu livro HTML, para leigos: </p>
+    <!-- citaçõ em blockquote, você pode adicionar o link da citação em cite= ""-->
+    <blockquote cite="">
+        a diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    
+    <h2>Abreviações</h2>
+    <!-- dar nomes as siglas ou um nome qualquer " ABBR " -->
+    <p>Estou estudando <abbr title="HyperText Markup Language ">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto invertido</h2>
+    <bdo dir="rtl">estou aprendendo HTML</bdo>
+    
+</body>
+</html>
