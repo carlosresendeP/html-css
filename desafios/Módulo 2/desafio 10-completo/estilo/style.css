@@ -126,6 +126,7 @@ main img{
     width: 100%;
 }
 
+
 /*paragrafos*/
 main p{ /*não precisa colocar o > , pois é qualquer p dentro de main*/
     margin: 15px 0px ;

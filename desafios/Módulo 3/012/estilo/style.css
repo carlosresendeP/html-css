@@ -1,0 +1,76 @@
+@charset "UTF-08";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh; /*100% da altura da view port*/
+    background-color: darkgray;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px ; /*espaçamento cima de h1*/
+    /*text-transform: uppercase; /*NOVO, joga tudo em letra maiuscula*/
+    font-variant: small-caps; /*letras maiusculas mais as primeiras são maiores*/
+}
+
+header >p{
+    padding-bottom: 50px; /*espaçamento baixo de p*/
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*espaçamento duplo entre as letras*/
+    padding-left: 30px;
+}
+
+section .normal{
+    background-color: white;
+    color: black;
+}
+
+
+section .imagem{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    
+}
+section .imagem >p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
