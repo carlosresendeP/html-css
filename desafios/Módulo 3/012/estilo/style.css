@@ -33,7 +33,8 @@ header > h1{
     /*text-transform: uppercase; /*NOVO, joga tudo em letra maiuscula*/
     font-variant: small-caps; /*letras maiusculas mais as primeiras são maiores*/
     font-family: var(--fonte2);
-    font-size: 5vw; /*5% da largura da tela  VW e não vh*/
+    font-size: 4vw; /*5% da largura da tela  VW e não vh*/
+  
     
 }
 
